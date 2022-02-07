@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from "./components/Header.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Homepage from "./components/Homepage.jsx";
+import Footer from "./components/Footer.jsx";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+      <Header />
+      <Navbar />
+      <Homepage />
+      <Footer />
+  </div>,
   document.getElementById('root')
 );
 

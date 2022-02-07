@@ -1,13 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&family=Quicksand:wght@300;400;500;700&display=swap');
+
+/************************************ 
+font-family: 'Cormorant', serif;
+font-family: 'Quicksand', sans-serif;
+************************************/
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* min-height: 100vh; */
+  font-family: 'Quicksand', sans-serif;
+  min-height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.locationIcon, .customerServiceIcon, .heartIcon, .bagIcon {
+  height: 20px;
+  margin-bottom: -5px;
+}
+
+
+.header h1, .footer h1 {
+  font-family: 'Cormorant', serif;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navBar {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  margin-top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: -1px;
+  background: rgb(255, 255, 255);
+}
+
+.navBar ul {
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
+  margin: 16px 0;
+
+}
+
+.navBar ul > li {
+  display: inline-block;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.navBar ul > li:hover {
+  color: rgba(0, 0, 0, 0.557);
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.605);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.605);
+  color: black;
+}
+
+
+
+
+.hero {
+  /* Position and center the image to scale nicely on all screens */
+  background: url("../src/assets/9_1.jpeg");
+  background-size: cover;
+  display: flex;
+  height: 40%;
+  /* position: relative; */
+}
+
+.hero-text {
+  color: black;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+#landing .hero button {
+  margin-top: 18px;
+}
+#landing .hero h2 {
+  margin-top: 5px;
+
+}
+
+
+
+.imageBoxTwo {
+  width: 100%;
+  /* margin-bottom: 30px; */
+}
+
+.imageBoxTwoContainer {
+  display: flex;
+  justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.image2 {
+  width: 20%;
+  margin: 5px;
+  filter: brightness(70%);
+  z-index: -1;
+}
+
+.imageBoxThree {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.imageBoxThreeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.image3 {
+  width: 61.3%;
+  z-index: -1;
+  filter: brightness(70%);
+}
+
+.imageBoxFour {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.imageBoxFourContainer {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+
+
+.footer {
+  padding: 25px 50px;
+  height: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.footer h1{
+  text-decoration: none;
+  color: white;
+}
+
+.lower {
+  display: flex;
+  margin-top: 30px;
+}
+
+.lowerbox {
+  flex: auto;
+}
+
+.copyright {
+  margin-top: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .lower {
+    flex-direction: column;
+  }
 }
