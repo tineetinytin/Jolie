@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Jolie/static/css/main.07da8d08.css",
+    "main.js": "/Jolie/static/js/main.b2f30ab6.js",
+    "static/js/787.5f7b7fc1.chunk.js": "/Jolie/static/js/787.5f7b7fc1.chunk.js",
+    "static/media/white2.jpg": "/Jolie/static/media/white2.7cd006dde4cff49b15b5.jpg",
+    "static/media/white3.jpg": "/Jolie/static/media/white3.e23aca5217e1b822d3a5.jpg",
+    "static/media/white1.jpg": "/Jolie/static/media/white1.e8e0ae3d61ca0ded1f05.jpg",
+    "static/media/watch2.jpg": "/Jolie/static/media/watch2.ac70b024fd507d2b98e0.jpg",
+    "static/media/watch4.jpg": "/Jolie/static/media/watch4.4a966120c268e77d9043.jpg",
+    "static/media/watch5.jpg": "/Jolie/static/media/watch5.4a00cdca4c43138a1aff.jpg",
+    "static/media/9.jpeg": "/Jolie/static/media/9.3abac2e6e69fd037127d.jpeg",
+    "static/media/9_1.jpeg": "/Jolie/static/media/9_1.d2dbe7658c3f2eb043df.jpeg",
+    "static/media/logo.svg": "/Jolie/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Jolie/index.html",
+    "main.07da8d08.css.map": "/Jolie/static/css/main.07da8d08.css.map",
+    "main.b2f30ab6.js.map": "/Jolie/static/js/main.b2f30ab6.js.map",
+    "787.5f7b7fc1.chunk.js.map": "/Jolie/static/js/787.5f7b7fc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07da8d08.css",
+    "static/js/main.b2f30ab6.js"
+  ]
+}
